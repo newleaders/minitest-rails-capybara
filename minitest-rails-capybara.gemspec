@@ -39,8 +39,8 @@ Gem::Specification.new do |s|
     end
   else
     s.add_dependency(%q<minitest-rails>.freeze, ["~> 3.0"])
-    s.add_dependency(%q<capybara>.freeze, ["~> 2.7"])
-    s.add_dependency(%q<minitest-capybara>.freeze, ["~> 0.8"])
+    s.add_dependency(%q<capybara>.freeze, ["~> 3.0"])
+    s.add_dependency(%q<minitest-capybara>.freeze, ["~> 0.9"])
     s.add_dependency(%q<minitest-metadata>.freeze, ["~> 0.6"])
     s.add_dependency(%q<rdoc>.freeze, ["~> 4.0"])
     s.add_dependency(%q<hoe>.freeze, ["~> 3.15"])
